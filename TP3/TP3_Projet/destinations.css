@@ -1,0 +1,39 @@
+table td{
+  border: solid blue 2px;
+}
+table{
+  border-collapse: collapse;
+  display: block;
+  text-align: center;
+}
+
+table caption{
+  border : 1px solid black;
+  font-weight: bold;
+}
+
+table th{
+  background-color: #4CAF50;
+}
+
+table tr:nth-child(2n){
+  background-color: #66FCF1;
+}
+table tr:nth-child(2n):hover{
+  background-color: #C5C6C7;
+}
+
+table tr:nth-child(2n+1){
+  background-color: #42A29E;
+}
+table tr:nth-child(2n+1):hover{
+  background-color: #C5C6C7;
+}
+table img{
+  width: 150px;
+  height: 150px;
+}
+
+#editDest{
+  display: none;
+}

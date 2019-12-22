@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Agence de voyage</title>
+
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="destinations.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  </head>
+  <body>
+    <h1><a href="./accueil.html">Agence de voyage</a><img id="entete" src="voyage.jpg" alt=""></h1>
+    <hr>
+    <nav>
+    <ul id="ulMenu"></ul>
+    </nav>
+    <hr>
+
+    <table id="tableau" summary ="tableau">
+      <caption>Promotions</caption>
+      <thead>
+      <tr>
+        <th>Pays</th><th>Circuit</th><th>prix</th><th>Reservation</th>
+      </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+    <form id="formulaire" action="#">
+      <fieldset>
+      <div>
+        <label for="nom">Nom de la destination</label>
+        <input type="text" id="nom" name="nom" required>
+      </div>
+      <div>
+        <label for="image">Nom fichier image</label>
+        <input type="text" id="image" name="image.png" required>
+      </div>
+      <div>
+        <label for="circuit">Description du circuit</label>
+        <input type="text" id ="circuit" name="circuit" required>
+      </div>
+      <div>
+        <label for="prix">Prix de la destination</label>
+        <input type="text" id ="prix" name="prix" required>
+      </div>
+
+        <div id="saveDest" class="button">
+            <button type="submit">Enregistrer la destination</button>
+        </div>
+        <div id="editDest" class="button">
+          <button type="submit">Modifier la destination</button>
+      </div>
+      </fieldset>
+    </form>
+  </body>
+  <script type="text/javascript" src="destinations.js"></script>
+  <script type="text/javascript" src="menu.js"></script>
+</html>

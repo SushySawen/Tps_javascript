@@ -1,0 +1,18 @@
+label{
+  display: block;
+}
+
+#envoyer{
+  width: 50%;
+  display: block;
+  margin: auto;
+  background-color: darkgrey;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#envoyer:hover{
+  background-color: grey;
+  color : white;
+}
